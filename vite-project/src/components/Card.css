@@ -1,0 +1,104 @@
+.card-container {
+  perspective: 1000px;
+  width: 250px;
+  height: 250px;
+  margin-top: 100px;
+  position: relative;
+}
+
+
+.card {
+  width: 100%;
+  height: 100%;
+ background: linear-gradient(145deg, #f5f2ed, #eae5df);
+  box-shadow: inset 0 6px 12px rgba(0, 0, 0, 0.12);  border-radius: 20px;
+  box-shadow: inset 0 6px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.6s ease, box-shadow 0.6s ease;
+  transform-origin: center bottom;
+  position: relative;
+  z-index: 1;
+}
+
+
+
+
+ 
+
+
+.card-img {
+  height: 80%;
+  width: auto;
+  pointer-events: none;
+  filter: drop-shadow(0 10px 15px rgba(0, 0, 0, 0.15));
+}
+.coffee-cup{
+ position: absolute;
+  width: 230px;
+  height: 230px;
+  bottom: 10px;
+  left: 50%; 
+  transform: translateX(-50%);
+  transition: bottom 0.6s ease;
+  z-index: 999;
+    filter: drop-shadow(0 15px 4px rgba(0, 0, 0, 0.25)); 
+
+}
+.black-brew{
+     position: absolute;
+  width: 200px;
+  height: 290px;
+  bottom: 10px;
+  left: 50%; 
+  transform: translateX(-50%);
+  transition: bottom 0.6s ease;
+  z-index: 999;
+    filter: drop-shadow(0 15px 4px rgba(0, 0, 0, 0.25)); 
+
+}
+.soft-pour{
+    position: absolute;
+  width: 200px;
+  height: 340px;
+  bottom: 10px;
+  left: 55%; 
+  transform: translateX(-50%);
+  transition: bottom 0.6s ease;
+  z-index: 999;
+    filter: drop-shadow(0 15px 4px rgba(0, 0, 0, 0.25)); 
+
+}
+.latte-swan {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  bottom: 30px;
+  left: 52%;
+  transform: translateX(-50%);
+  transition: bottom 0.6s ease;
+  z-index: 999;
+
+  filter: drop-shadow(0 15px 4px rgba(0, 0, 0, 0.25)); 
+}
+
+
+
+.card-container:hover .card {
+  transform: rotateX(80deg);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card-container:hover .coffee-cup{
+  bottom: 3%;
+}
+
+.card-container:hover .black-brew{
+  bottom: -3%;
+}
+.card-container:hover .soft-pour{
+  bottom: -3%;
+}
+.card-container:hover .latte-swan{
+  bottom: 11%;
+}
+
+

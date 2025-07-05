@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Quicksand:wght@400;600&display=swap');
+body{
+  margin:  0 !important;
+}
+.menu-section {
+  background: linear-gradient(to bottom right, #e2c7a9, #e9d8c5);
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  height: 100vh;
+  width: 100vw;
+}
+
+
+.menu-section h1 {
+  font-size:80px;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+padding-top: 130px;
+  margin: 0 !important;
+
+  color: rgba(74, 50, 37, 0.8); 
+}
+
+
+.menu-section h3 {
+  font-size: 25px;
+  max-width: 600px;
+  margin: 20px auto 20px;
+  line-height: 1.6;
+  color: #5a4646;
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
